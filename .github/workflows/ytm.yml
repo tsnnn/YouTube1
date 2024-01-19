@@ -25,7 +25,6 @@ jobs:
 
     - name: Get beINSportsHaber.m3u8
       run: |
-        mkdir ./channels/spor/beINSportsHaber/index.m3u8
         touch ./channels/spor/beINSportsHaber/index.m3u8
         sudo cat >./channels/spor/beINSportsHaber/index.m3u8 <<EOL
         #EXTM3U
