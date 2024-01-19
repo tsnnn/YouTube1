@@ -23,14 +23,104 @@ jobs:
         sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
         sudo chmod a+rx /usr/local/bin/yt-dlp
 
-    - name: Get beINSportsHaber.m3u8
+    - name: Get beINSportsHaber
       run: |
-        touch ./channels/spor/beINSportsHaber/index.m3u8
-        sudo cat >./channels/spor/beINSportsHaber/index.m3u8 <<EOL
+        touch ./spor/beinsportshaber.m3u8
+        sudo cat >./spor/beinsportshaber.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@beinsportsturkiye/live)
+        EOL
+
+    - name: Get ASpor
+      run: |
+        touch ./spor/aspor.m3u8
+        sudo cat >./spor/aspor.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@ASpor/live)
+        EOL
+
+    - name: Get FBTV
+      run: |
+        touch ./spor/fbtv.m3u8
+        sudo cat >./spor/fbtv.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@fenerbahce/live)
+        EOL
+
+    - name: Get TayTv
+      run: |
+        touch ./spor/taytv.m3u8
+        sudo cat >./spor/taytv.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@TayTvOfficial/live)
+        EOL
+
+    - name: Get SportsDigitale
+      run: |
+        touch ./spor/sportsdigitale.m3u8
+        sudo cat >./spor/sportsdigitale.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@SportsDigitale/live)
+        EOL
+
+    - name: Get AHaber
+      run: |
+        touch ./haber/ahaber.m3u8
+        sudo cat >./haber/ahaber.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@ahaber/live)
+        EOL
+
+    - name: Get APara
+      run: |
+        touch ./haber/apara.m3u8
+        sudo cat >./haber/apara.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@apara/live)
+        EOL
+
+    - name: Get FilmAtolyesi
+      run: |
+        touch ./sinema/filmatolyesi.m3u8
+        sudo cat >./sinema/filmatolyesi.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@FilmAtolyesi/live)
+        EOL
+
+    - name: Get KemalSunalFilmleri
+      run: |
+        touch ./film/kemalsunalfilmleri.m3u8
+        sudo cat >./film/kemalsunalfilmleri.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@kemalsunalfilmleri/live)
+        EOL
+
+    - name: Get Sirinler
+      run: |
+        touch ./film/sirinler.m3u8
+        sudo cat >./film/sirinler.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@sirinler/live)
         EOL
 
     - name: git add
