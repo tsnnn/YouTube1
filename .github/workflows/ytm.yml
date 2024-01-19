@@ -103,6 +103,16 @@ jobs:
         $(yt-dlp --print urls https://www.youtube.com/@filmatolyesi/live)
         EOL
 
+    - name: Get KemalSunalTV
+      run: |
+        touch ./film/kemalsunaltv.m3u8
+        sudo cat >./film/kemalsunaltv.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@KemalSunalTV/live)
+        EOL
+
     - name: Get KemalSunalFilmleri
       run: |
         touch ./film/kemalsunalfilmleri.m3u8
