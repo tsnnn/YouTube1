@@ -103,6 +103,16 @@ jobs:
         $(yt-dlp --print urls https://www.youtube.com/@kemalsunalfilmleri/live)
         EOL
 
+    - name: Get KemalSunalFilmleriveSahneleri
+      run: |
+        touch ./film/kemalsunalfilmlerivesahneleri.m3u8
+        sudo cat >./film/kemalsunalfilmlerivesahneleri.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@KemalSunalFilmleriveSahneleri/live)
+        EOL
+
     - name: Get Sirinler
       run: |
         touch ./film/sirinler.m3u8
