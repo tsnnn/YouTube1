@@ -43,16 +43,6 @@ jobs:
         $(yt-dlp --print urls https://www.youtube.com/@ASpor/live)
         EOL
 
-    - name: Get FBTV
-      run: |
-        touch ./spor/fbtv.m3u8
-        sudo cat >./spor/fbtv.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@fenerbahce/live)
-        EOL
-
     - name: Get TayTv
       run: |
         touch ./spor/taytv.m3u8
@@ -63,16 +53,6 @@ jobs:
         $(yt-dlp --print urls https://www.youtube.com/@TayTvOfficial/live)
         EOL
 
-    - name: Get SportsDigitale
-      run: |
-        touch ./spor/sportsdigitale.m3u8
-        sudo cat >./spor/sportsdigitale.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@SportsDigitale/live)
-        EOL
-
     - name: Get AHaber
       run: |
         touch ./haber/ahaber.m3u8
@@ -80,7 +60,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@ahaber/live)
+        $(yt-dlp --print urls https://www.youtube.com/ahaber/live)
         EOL
 
     - name: Get APara
