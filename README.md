@@ -1,6 +1,6 @@
 # Youtube Canlı Yayın m3u8 Linkleri
 
-## Haber
+## HABER
 
 Türk Haber Kanalları
 
@@ -17,7 +17,7 @@ https://github.com/rideordie16/YouTube/raw/main/haber/apara.m3u8
 ```
 
 
-## Spor
+## SPOR
 
 Türk Spor Kanalları
 
@@ -39,7 +39,7 @@ https://github.com/rideordie16/YouTube/raw/main/spor/beinsportshaber.m3u8
 https://github.com/rideordie16/YouTube/raw/main/spor/taytv.m3u8
 ```
 
-## Spor
+## FİLM
 
 ### Film Atölyesi
 
