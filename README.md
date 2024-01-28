@@ -1,5 +1,25 @@
 # Youtube Canlı Yayın m3u8 Linkleri
 
+## KANAL
+
+### EURO STAR
+
+```
+https://raw.githubusercontent.com/rideordie16/YouTube/main/ch/eurostar.m3u8
+```
+
+### SHOW TURK
+
+```
+https://raw.githubusercontent.com/rideordie16/YouTube/main/ch/showturk.m3u8
+```
+
+### SHOW MAX
+
+```
+https://raw.githubusercontent.com/rideordie16/YouTube/main/ch/showmax.m3u8
+```
+
 ## HABER
 
 Türk Haber Kanalları
