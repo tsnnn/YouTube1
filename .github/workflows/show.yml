@@ -1,7 +1,7 @@
-name: Get CH m3u8
+name: Show m3u8
 on:
   schedule:
-    - cron: '10 */20 * * *'
+    - cron: '16 */02 * * *'
 
   pull_request:
     branches:
@@ -19,7 +19,7 @@ jobs:
       - name: config
         run: |
           git config --global user.email "<>"
-          git config --global user.name "CH bot"
+          git config --global user.name "Show bot"
 
       - name: Set up Python
         uses: actions/setup-python@v2
@@ -34,9 +34,6 @@ jobs:
         run: python3 -m pip install requests
 
       - name: Execute Python script
-        run: python3 py/eurostar.py > ch/eurostar.m3u8
-
-      - name: Execute Python script
         run: python3 py/showmax.py > ch/showmax.m3u8
 
       - name: Execute Python script
@@ -49,5 +46,5 @@ jobs:
           
       - name: commit & push
         run: |
-          git commit -m "CH Updated"
+          git commit -m "m3u8 Link Updated"
           git push
