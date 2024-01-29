@@ -26,7 +26,7 @@ jobs:
     - name: Get SefirinKizi
       run: |
         touch ./dizi/sefirinkizi.m3u8
-        sudo cat >./dizi/sefirinkizi.m3u8
+        sudo cat >./dizi/sefirinkizi.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
@@ -36,7 +36,7 @@ jobs:
     - name: Get Dolunay
       run: |
         touch ./dizi/dolunay.m3u8
-        sudo cat >./dizi/dolunay.m3u8
+        sudo cat >./dizi/dolunay.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
@@ -46,7 +46,7 @@ jobs:
     - name: Get Avlu
       run: |
         touch ./dizi/avlu.m3u8
-        sudo cat >./dizi/avlu.m3u8
+        sudo cat >./dizi/avlu.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
@@ -56,7 +56,7 @@ jobs:
     - name: Get CilekKokusu
       run: |
         touch ./dizi/cilekkokusu.m3u8
-        sudo cat >./dizi/cilekkokusu.m3u8
+        sudo cat >./dizi/cilekkokusu.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
@@ -66,7 +66,7 @@ jobs:
     - name: Get FaziletHanim
       run: |
         touch ./dizi/fazilethanimvekizlari.m3u8
-        sudo cat >./dizi/fazilethanimvekizlari.m3u8
+        sudo cat >./dizi/fazilethanimvekizlari.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
@@ -76,7 +76,7 @@ jobs:
     - name: Get HanimKoylu
       run: |
         touch ./dizi/hanimkoylu.m3u8
-        sudo cat >./dizi/hanimkoylu.m3u8
+        sudo cat >./dizi/hanimkoylu.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
@@ -86,7 +86,7 @@ jobs:
     - name: Get HayatBazenTatlidir
       run: |
         touch ./dizi/hayatbazentatlidir.m3u8
-        sudo cat >./dizi/hayatbazentatlidir.m3u8
+        sudo cat >./dizi/hayatbazentatlidir.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
@@ -96,7 +96,7 @@ jobs:
     - name: Get UfakTefekCinayerler
       run: |
         touch ./dizi/ufaktefekcinayetler.m3u8
-        sudo cat >./dizi/ufaktefekcinayetler.m3u8
+        sudo cat >./dizi/ufaktefekcinayetler.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
@@ -106,7 +106,7 @@ jobs:
     - name: Get IstanbulluGelin
       run: |
         touch ./dizi/istanbullugelin.m3u8
-        sudo cat >./dizi/istanbullugelin.m3u8
+        sudo cat >./dizi/istanbullugelin.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
