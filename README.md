@@ -166,3 +166,51 @@ https://github.com/rideordie16/YouTube/raw/main/dizi/eeesonra.m3u8
 ```
 https://github.com/rideordie16/YouTube/raw/main/dizi/hayatbazentatlidir.m3u8
 ```
+
+### Ufak Tefek Cinayetler
+
+```
+https://github.com/rideordie16/YouTube/raw/main/dizi/ufaktefekcinayetler.m3u8
+```
+
+### İstanbullu Gelin
+
+```
+https://github.com/rideordie16/YouTube/raw/main/dizi/istanbullugelin.m3u8
+```
+
+### Sefirin Kızı
+
+```
+https://github.com/rideordie16/YouTube/raw/main/dizi/sefirinkizi.m3u8
+```
+
+### Dolunay
+
+```
+https://github.com/rideordie16/YouTube/raw/main/dizi/dolunay.m3u8
+```
+
+### Avlu
+
+```
+https://github.com/rideordie16/YouTube/raw/main/dizi/avlu.m3u8
+```
+
+### Çilek Kokusu
+
+```
+https://github.com/rideordie16/YouTube/raw/main/dizi/cilekkokusu.m3u8
+```
+
+### Fazilet Hanım ve Kızları
+
+```
+https://github.com/rideordie16/YouTube/raw/main/dizi/fazilethanimvekizlari.m3u8
+```
+
+### Hanım Köylü
+
+```
+https://github.com/rideordie16/YouTube/raw/main/dizi/hanimkoylu.m3u8
+```
