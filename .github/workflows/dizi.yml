@@ -83,10 +83,10 @@ jobs:
         $(yt-dlp --print urls https://www.youtube.com/@EeeSonra/live)
         EOL
 
-    - name: Get UfakTefekCinayerler
+    - name: Get UfakTefekCinayetler
       run: |
-        touch ./dizi/ufaktefekcinayetler.m3u8
-        sudo cat >./dizi/ufaktefekcinayetler.m3u8
+        touch ./dizi/utc.m3u8
+        sudo cat >./dizi/utc.m3u8
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
