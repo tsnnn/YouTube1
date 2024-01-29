@@ -145,8 +145,8 @@ jobs:
 
     - name: Get CennetMahallesi
       run: |
-        touch ./film/cennetmahallesi.m3u8
-        sudo cat >./film/cennetmahallesi.m3u8 <<EOL
+        touch ./dizi/cennetmahallesi.m3u8
+        sudo cat >./dizi/cennetmahallesi.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
@@ -165,8 +165,8 @@ jobs:
 
     - name: Get BehzatC
       run: |
-        touch ./film/behzatc.m3u8
-        sudo cat >./film/behzatc.m3u8 <<EOL
+        touch ./dizi/behzatc.m3u8
+        sudo cat >./dizi/behzatc.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
@@ -175,8 +175,8 @@ jobs:
 
     - name: Get KuzeyYildizi
       run: |
-        touch ./film/kuzeyyildizi.m3u8
-        sudo cat >./film/kuzeyyildizi.m3u8 <<EOL
+        touch ./dizi/kuzeyyildizi.m3u8
+        sudo cat >./dizi/kuzeyyildizi.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
@@ -195,8 +195,8 @@ jobs:
 
     - name: Get YeniGelin
       run: |
-        touch ./film/yenigelin.m3u8
-        sudo cat >./film/yenigelin.m3u8 <<EOL
+        touch ./dizi/yenigelin.m3u8
+        sudo cat >./dizi/yenigelin.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
@@ -215,8 +215,8 @@ jobs:
 
     - name: Get SihirliAnnem
       run: |
-        touch ./film/sihirliannem.m3u8
-        sudo cat >./film/sihirliannem.m3u8 <<EOL
+        touch ./dizi/sihirliannem.m3u8
+        sudo cat >./dizi/sihirliannem.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
@@ -225,8 +225,8 @@ jobs:
 
     - name: Get EeeSonra
       run: |
-        touch ./film/eeesonra.m3u8
-        sudo cat >./film/eeesonra.m3u8 <<EOL
+        touch ./dizi/eeesonra.m3u8
+        sudo cat >./dizi/eeesonra.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
