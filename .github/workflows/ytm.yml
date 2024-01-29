@@ -123,6 +123,76 @@ jobs:
         $(yt-dlp --print urls https://www.youtube.com/@sirinler/live)
         EOL
 
+    - name: Get ArzuFilm
+      run: |
+        touch ./film/arzufilm.m3u8
+        sudo cat >./film/arzufilm.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@arzufilm1964/live)
+        EOL
+
+    - name: Get GulsahFilm
+      run: |
+        touch ./film/gulsahfilm.m3u8
+        sudo cat >./film/gulsahfilm.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@GulsahFilmOfficial/live)
+        EOL
+
+    - name: Get CennetMahallesi
+      run: |
+        touch ./film/cennetmahallesi.m3u8
+        sudo cat >./film/cennetmahallesi.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@cennetmahallesishowtv/live)
+        EOL
+
+    - name: Get TurkFimleriTV
+      run: |
+        touch ./film/turkfilmleri.m3u8
+        sudo cat >./film/turkfilmleri.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@TurkFilmleri-TV/live)
+        EOL
+
+    - name: Get BehzatC
+      run: |
+        touch ./film/behzatc.m3u8
+        sudo cat >./film/behzatc.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@Behzatc./live)
+        EOL
+
+    - name: Get KuzeyYildizi
+      run: |
+        touch ./film/kuzeyyildizi.m3u8
+        sudo cat >./film/kuzeyyildizi.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@KuzeyYildiziDizi/live)
+        EOL
+
+    - name: Get MuratFilm
+      run: |
+        touch ./film/muratfilm.m3u8
+        sudo cat >./film/muratfilm.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@MuratFilm/live)
+        EOL
+
     - name: git add
       run: |
         git add -A
