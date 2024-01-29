@@ -53,7 +53,7 @@ jobs:
         $(yt-dlp --print urls https://www.youtube.com/@avludizi/live)
         EOL
 
-    - name: CilekKokusu
+    - name: Get CilekKokusu
       run: |
         touch ./dizi/cilekkokusu.m3u8
         sudo cat >./dizi/cilekkokusu.m3u8
@@ -63,7 +63,7 @@ jobs:
         $(yt-dlp --print urls https://www.youtube.com/@CilekKokusu/live)
         EOL
 
-    - name: FaziletHanim
+    - name: Get FaziletHanim
       run: |
         touch ./dizi/fazilethanimvekizlari.m3u8
         sudo cat >./dizi/fazilethanimvekizlari.m3u8
@@ -73,7 +73,7 @@ jobs:
         $(yt-dlp --print urls https://www.youtube.com/@fazilethanimvekizlaridizi/live)
         EOL
 
-    - name: HanimKoylu
+    - name: Get HanimKoylu
       run: |
         touch ./dizi/hanimkoylu.m3u8
         sudo cat >./dizi/hanimkoylu.m3u8
