@@ -22,16 +22,6 @@ jobs:
       run: |
         sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
         sudo chmod a+rx /usr/local/bin/yt-dlp
-    
-    - name: Get IstanbulluGelin
-      run: |
-        touch ./dizi/istanbullugelin.m3u8
-        sudo cat >./dizi/istanbullugelin.m3u8
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@istanbullugelindizi/live)
-        EOL
 
     - name: Get SefirinKizi
       run: |
@@ -112,6 +102,16 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@ufaktefekcinayetlerdizi/live)
         EOL
+
+    - name: Get IstanbulluGelin
+      run: |
+        touch ./dizi/istanbullugelin.m3u8
+        sudo cat >./dizi/istanbullugelin.m3u8
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@istanbullugelindizi/live)
+        EOL        
 
     - name: git add
       run: |
