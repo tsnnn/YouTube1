@@ -90,3 +90,45 @@ https://github.com/rideordie16/YouTube/raw/main/film/kemalsunaltv.m3u8
 ```
 https://github.com/rideordie16/YouTube/raw/main/film/sirinler.m3u8
 ```
+
+### Kemal Sunal Filmleri - Arzu Film
+
+```
+https://github.com/rideordie16/YouTube/raw/main/film/arzufilm.m3u8
+```
+
+### Kemal Sunal Filmleri - Gülşah Film
+
+```
+https://github.com/rideordie16/YouTube/raw/main/film/gulsahfilm.m3u8
+```
+
+### Cennet Mahallesi
+
+```
+https://github.com/rideordie16/YouTube/raw/main/film/cennetmahallesi.m3u8
+```
+
+### Zeki Alasya & Metin Akpınar Filmleri - Türk Filmleri Tv
+
+```
+https://github.com/rideordie16/YouTube/raw/main/film/turkfilmleri.m3u8
+```
+
+### Behzat Ç
+
+```
+https://github.com/rideordie16/YouTube/raw/main/film/behzatc.m3u8
+```
+
+### Kuzey Yıldızı İlk Aşk
+
+```
+https://github.com/rideordie16/YouTube/raw/main/film/kuzeyyildizi.m3u8
+```
+
+### Hülya Avşar Filmleri - Murat Film
+
+```
+https://github.com/rideordie16/YouTube/raw/main/film/muratfilm.m3u8
+```
