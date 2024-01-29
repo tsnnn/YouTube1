@@ -92,21 +92,3 @@ jobs:
       run: |
         git commit -m "link are updated"
         git push
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
