@@ -132,3 +132,27 @@ https://github.com/rideordie16/YouTube/raw/main/film/kuzeyyildizi.m3u8
 ```
 https://github.com/rideordie16/YouTube/raw/main/film/muratfilm.m3u8
 ```
+
+### Yeni Gelin
+
+```
+https://github.com/rideordie16/YouTube/raw/main/film/yenigelin.m3u8
+```
+
+### Türk Filmleri - 1onMedya
+
+```
+https://github.com/rideordie16/YouTube/raw/main/film/turkfilmleri1onmedya.m3u8
+```
+
+### Sihirli Annem
+
+```
+https://github.com/rideordie16/YouTube/raw/main/film/sihirliannem.m3u8
+```
+
+### Eee Sonra?
+
+```
+https://github.com/rideordie16/YouTube/raw/main/film/eeesonra.m3u8
+```
