@@ -185,12 +185,6 @@ https://github.com/rideordie16/YouTube/raw/main/dizi/istanbullugelin.m3u8
 https://github.com/rideordie16/YouTube/raw/main/dizi/sefirinkizi.m3u8
 ```
 
-### Dolunay
-
-```
-https://github.com/rideordie16/YouTube/raw/main/dizi/dolunay.m3u8
-```
-
 ### Avlu
 
 ```
