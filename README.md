@@ -137,12 +137,6 @@ https://github.com/rideordie16/YouTube/raw/main/dizi/cennetmahallesi.m3u8
 https://github.com/rideordie16/YouTube/raw/main/dizi/behzatc.m3u8
 ```
 
-### Kuzey Yıldızı İlk Aşk
-
-```
-https://github.com/rideordie16/YouTube/raw/main/dizi/kuzeyyildizi.m3u8
-```
-
 ### Yeni Gelin
 
 ```
