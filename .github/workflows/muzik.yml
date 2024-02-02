@@ -1,4 +1,4 @@
-name: Dizi
+name: Muzik
 on:
   schedule:
     - cron: '0 0/3 * * *'
