@@ -36,6 +36,5 @@ jobs:
           
       - name: commit & push
         run: |
-          git pull origin master
           git commit -m "Link Updated"
-          git push origin master
+          git push
