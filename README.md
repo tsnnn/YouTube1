@@ -14,6 +14,12 @@ https://raw.githubusercontent.com/rideordie16/YouTube/main/ch/eurostar.m3u8
 https://raw.githubusercontent.com/rideordie16/YouTube/main/ch/showturk.m3u8
 ```
 
+### KANAL 7 AVRUPA
+
+```
+https://raw.githubusercontent.com/rideordie16/YouTube/main/ch/kanal7eu.m3u8
+```
+
 ### SHOW MAX
 
 ```
