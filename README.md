@@ -5,25 +5,25 @@
 ### EURO STAR
 
 ```
-https://raw.githubusercontent.com/rideordie16/YouTube/main/ch/eurostar.m3u8
+https://github.com/rideordie16/YouTube/raw/main/ch/eurostar.m3u8
 ```
 
 ### SHOW TURK
 
 ```
-https://raw.githubusercontent.com/rideordie16/YouTube/main/ch/showturk.m3u8
+https://github.com/rideordie16/YouTube/raw/main/ch/showturk.m3u8
 ```
 
 ### KANAL 7 AVRUPA
 
 ```
-https://raw.githubusercontent.com/rideordie16/YouTube/main/ch/kanal7eu.m3u8
+https://github.com/rideordie16/YouTube/raw/main/ch/kanal7eu.m3u8
 ```
 
 ### SHOW MAX
 
 ```
-https://raw.githubusercontent.com/rideordie16/YouTube/main/ch/showmax.m3u8
+https://github.com/rideordie16/YouTube/raw/main/ch/showmax.m3u8
 ```
 
 ## HABER
