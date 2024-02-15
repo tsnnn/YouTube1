@@ -59,6 +59,12 @@ https://github.com/rideordie16/YouTube/raw/main/spor/aspor.m3u8
 https://github.com/rideordie16/YouTube/raw/main/spor/beinsportshaber.m3u8
 ```
 
+### FBTV
+
+```
+https://github.com/rideordie16/YouTube/raw/main/ch/fbtv.m3u8
+```
+
 ### Tay Tv
 
 ```
