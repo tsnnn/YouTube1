@@ -61,6 +61,16 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@NTV/live)
+        EOL
+
+    - name: Get CNNturk
+      run: |
+        touch ./haber/cnnturk.m3u8
+        sudo cat >./haber/cnnturk.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@cnnturk/live)
         EOL        
 
     - name: Get HalkTV
@@ -91,8 +101,127 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@krtcanli/live)
-        EOL           
+        EOL    
 
+    - name: Get NatGeoWild
+      run: |
+        touch ./belgesel/NatGeoWild.m3u8
+        sudo cat >./belgesel/NatGeoWild.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@NatGeoWild/live)
+        EOL  
+        
+    - name: Get Natgeokids
+      run: |
+        touch ./belgesel/natgeokids.m3u8
+        sudo cat >./belgesel/natgeokids.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@natgeokids/live)
+        EOL
+
+    - name: Get NatGeo
+      run: |
+        touch ./belgesel/NatGeo.m3u8
+        sudo cat >./belgesel/NatGeo.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@NatGeo/live)
+        EOL
+
+    - name: Get Bloomberg
+      run: |
+        touch ./haber/bloomberg.m3u8
+        sudo cat >./haber/bloomberg.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@markets/live)
+        EOL        
+    - name: Get ABCnews
+      run: |
+        touch ./haber/ABCNews.m3u8
+        sudo cat >./haber/ABCNews.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@ABCNews/live)
+        EOL
+
+    - name: Get NBCnews
+      run: |
+        touch ./haber/nbcnews.m3u8
+        sudo cat >./haber/nbcnews.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@NBCNews/live)
+        EOL
+
+    - name: Get Spongebob
+      run: |
+        touch ./cocuk/Spongebob.m3u8
+        sudo cat >./cocuk/Spongebob.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@SpongeBobOfficial/live)
+        EOL 
+        
+    - name: Get Nickelodeon
+      run: |
+        touch ./cocuk/nickelodeonuk.m3u8
+        sudo cat >./cocuk/nickelodeonuk.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@nickelodeonuk/live)
+        EOL
+        
+    - name: Get DisneyXD
+      run: |
+        touch ./cocuk/DisneyXD.m3u8
+        sudo cat >./cocuk/DisneyXD.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@disneyxd/live)
+        EOL
+
+    - name: Get Boomerang
+      run: |
+        touch ./cocuk/Boomerang.m3u8
+        sudo cat >./cocuk/Boomerang.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@BoomerangUK/live)
+        EOL
+        
+    - name: Get WBkids
+      run: |
+        touch ./cocuk/wbkids.m3u8
+        sudo cat >./cocuk/wbkids.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@wbkids/live)
+        EOL   
+        
+    - name: Get NASA
+      run: |
+        touch ./belgesel/nasa.m3u8
+        sudo cat >./belgesel/nasa.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@NASA/live)
+        EOL        
+        
     - name: Get BloombergHT
       run: |
         touch ./haber/bloomberght.m3u8
