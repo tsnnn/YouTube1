@@ -102,7 +102,27 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@BloombergHT/live)
         EOL           
+        
+    - name: Get Ekoturk
+      run: |
+        touch ./haber/ekoturk.m3u8
+        sudo cat >./haber/ekoturk.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@EKOTURKTV/live)
+        EOL 
 
+    - name: Get TV100
+      run: |
+        touch ./haber/tv100.m3u8
+        sudo cat >./haber/tv100.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@tv100/live)
+        EOL         
+      
     - name: Get ShowTV
       run: |
         touch ./ulusal/showtv.m3u8
@@ -121,8 +141,18 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@atvturkiye/live)
-        EOL     
-
+        EOL   
+        
+    - name: Get TRT1
+      run: |
+        touch ./ulusal/trt1.m3u8
+        sudo cat >./ulusal/trt1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@trt1/live)
+        EOL
+        
     - name: Get StarTV
       run: |
         touch ./ulusal/startv.m3u8
@@ -135,8 +165,8 @@ jobs:
 
     - name: Get PalStation
       run: |
-        touch ./spor/palstation.m3u8
-        sudo cat >./spor/palstation.m3u8 <<EOL
+        touch ./muzik/palstation.m3u8
+        sudo cat >./muzik/palstation.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
