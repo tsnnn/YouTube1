@@ -342,6 +342,16 @@ jobs:
         $(yt-dlp --print urls https://www.youtube.com/@TayTvOfficial/live)
         EOL
 
+    - name: Get TjkTV
+      run: |
+        touch ./spor/tjktv.m3u8
+        sudo cat >./spor/tjktv.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@TJKTVCANLIYAYIN/live)
+        EOL
+        
     - name: Get AHaber
       run: |
         touch ./haber/ahaber.m3u8
