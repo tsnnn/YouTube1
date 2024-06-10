@@ -111,8 +111,18 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@trthaber/live)
-        EOL       
-
+        EOL      
+        
+    - name: Get Haberglobal
+      run: |
+        touch ./haber/haberglobal.m3u8
+        sudo cat >./haber/haberglobal.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@haberglobal/live)
+        EOL 
+        
     - name: Get NatGeoWild
       run: |
         touch ./belgesel/NatGeoWild.m3u8
