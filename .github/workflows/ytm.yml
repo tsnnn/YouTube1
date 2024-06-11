@@ -43,6 +43,16 @@ jobs:
         $(yt-dlp --print urls https://www.youtube.com/@Sozcutelevizyonu/live)
         EOL
 
+    - name: Get Cnbce
+      run: |
+        touch ./haber/cnbce.m3u8
+        sudo cat >./haber/cnbce.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@cnbce/live)
+        EOL
+
     - name: Get HaberturkTV
       run: |
         touch ./haber/haberturktv.m3u8
