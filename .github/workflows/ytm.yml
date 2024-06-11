@@ -51,7 +51,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@haberturktv/live)
-        EOL  
+        EOL
 
     - name: Get NTV
       run: |
@@ -71,7 +71,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@cnnturk/live)
-        EOL        
+        EOL
 
     - name: Get HalkTV
       run: |
@@ -91,7 +91,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@Tele1comtr/live)
-        EOL 
+        EOL
 
     - name: Get KRT
       run: |
@@ -101,7 +101,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@krtcanli/live)
-        EOL    
+        EOL
 
     - name: Get TRThaber
       run: |
@@ -111,7 +111,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@trthaber/live)
-        EOL      
+        EOL
         
     - name: Get Haberglobal
       run: |
@@ -121,7 +121,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@haberglobal/live)
-        EOL 
+        EOL
         
     - name: Get NatGeoWild
       run: |
@@ -131,7 +131,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@NatGeoWild/live)
-        EOL  
+        EOL
         
     - name: Get Natgeokids
       run: |
@@ -161,7 +161,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@markets/live)
-        EOL        
+        EOL
     - name: Get ABCnews
       run: |
         touch ./haber/ABCNews.m3u8
@@ -190,7 +190,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@SpongeBobOfficial/live)
-        EOL 
+        EOL
         
     - name: Get Nickelodeon
       run: |
@@ -230,7 +230,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@wbkids/live)
-        EOL   
+        EOL
         
     - name: Get NASA
       run: |
@@ -240,7 +240,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@NASA/live)
-        EOL        
+        EOL
         
     - name: Get BloombergHT
       run: |
@@ -250,7 +250,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@BloombergHT/live)
-        EOL           
+        EOL
         
     - name: Get Ekoturk
       run: |
@@ -260,7 +260,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@EKOTURKTV/live)
-        EOL 
+        EOL
 
     - name: Get TV100
       run: |
@@ -270,7 +270,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@tv100/live)
-        EOL         
+        EOL
       
     - name: Get ShowTV
       run: |
@@ -280,7 +280,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@showtv/live)
-        EOL     
+        EOL
 
     - name: Get ATV
       run: |
@@ -290,7 +290,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@atvturkiye/live)
-        EOL   
+        EOL
         
     - name: Get TRT1
       run: |
@@ -320,7 +320,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=6-GnbjMkmGc)
-        EOL        
+        EOL
         
     - name: Get ASpor
       run: |
